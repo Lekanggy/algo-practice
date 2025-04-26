@@ -17,4 +17,4 @@ def powerLognOperation(n):
         return 2 * powerLognOperation(n - 1)
     
 
-print(powerLognOperation(9))
+print(powerLognOperation(4))

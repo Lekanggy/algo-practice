@@ -5,7 +5,7 @@
 
 def recFindMin(arr, position, minVal):
     if position >= len(arr):
-        return minVal
+        return arr.index(minVal)
     currentMin = arr[position]
     if currentMin < minVal:
         return recFindMin(arr, position + 1, currentMin)
