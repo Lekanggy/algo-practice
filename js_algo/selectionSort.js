@@ -9,10 +9,9 @@ function findMin(arr, startIndex){
     let minIndx = startIndex
     for(let i = startIndex + 1; i < arr.length; i++ ){
         if(minval > arr[i]){
-            minval = arr[i];
+            minval = arr[i]; // To update the whole arr to arrangfe in decending order just alter this line to minVal  < arr[i]
             minIndx = i
         }
-
     }
 
     return minIndx;
