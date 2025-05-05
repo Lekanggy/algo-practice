@@ -17,8 +17,6 @@ function merge(arr, startLeft, endLeft, end){
     }
     arrRight[sizeRight] = Number.MAX_SAFE_INTEGER
 
-    console.log("arrL",arrLeft)
-    console.log("arrR",arrRight)
 
     let indexLeft = 0;
     let indexRight = 0;
